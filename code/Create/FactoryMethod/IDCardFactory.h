@@ -3,7 +3,7 @@
 #include "IFactory.h"
 #include <string>
 #include <vector>
-class IDCareFactory : public IFactory
+class IDCardFactory : public IFactory
 {
 public:
     IProduct *createProduct(const std::string &owner)

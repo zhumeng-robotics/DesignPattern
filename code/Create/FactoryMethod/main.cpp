@@ -1,7 +1,7 @@
 ﻿#include "IDCardFactory.h"
 int main()
 {
-    IFactory *fac = new IDCareFactory;
+    IFactory *fac = new IDCardFactory;
     IProduct *pro = fac->create("tao");
     IProduct *pro2 = fac->create("tao2");
     pro->use();
